@@ -6,4 +6,4 @@
 - 아래 명령어 입력
 - chmod +x ./dsda.sh
 - sudo ./dsda.sh
-## dsdaa.sh는 직접 실행하는거 아니에요
+### dsdaa.sh는 직접 실행하는거 아니에요!
