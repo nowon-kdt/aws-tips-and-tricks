@@ -26,17 +26,15 @@ else
   sleep 0.5
 fi
 
-chmod +x tomcat9
-
 mkdir tomcat9 && tar -zxf "$TOMCAT_TAR" -C /home/ec2-user/tomcat9 --strip-components=1
 sleep 0.5
 
 TOMCAT_DIR=$(find . -type d -name "*tomcat9*")
 
-mv -f "$TOMCAT_DIR" /usr/local/tomcat9
+# mv -f "$TOMCAT_DIR" /usr/local/tomcat9
 
-ln -s /usr/local/tomcat9/bin/startup.sh ./startup9
-ln -s /usr/local/tomcat9/bin/shutdown.sh ./shutdown9
+# ln -s /usr/local/tomcat9/bin/startup.sh ./startup9
+# ln -s /usr/local/tomcat9/bin/shutdown.sh ./shutdown9
 
 if [ -f "/home/ec2-user/awscliv2.zip" ]; then
   echo "File \"/home/ec2-user/awscliv2.zip\" exists"
