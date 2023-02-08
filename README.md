@@ -15,3 +15,6 @@
 1. [둘중에 하나는 주석처리(1)](https://github.com/nowon-kdt/ami2-ec2-cicd-init-scripts/blob/69f07e843057462df08cce5f09e326d4395e5c3a/sc/dsda.sh#L63)
 2. [둘중에 하나는 주석처리(2)](https://github.com/nowon-kdt/ami2-ec2-cicd-init-scripts/blob/69f07e843057462df08cce5f09e326d4395e5c3a/sc/dsda.sh#L67)
 </br> 기본적으로 1번이 실행됨
+
+## ami2 로컬 환경에서 테스트할때
+ https://cdn.amazonlinux.com/os-images/latest/
