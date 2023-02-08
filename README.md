@@ -82,9 +82,8 @@
 - 깃허브 시크릿 설정
 
 1. 본인 repository로 가줍시다.
-   ![참고사진](https://)
 2. settings를 클릭합니다.
-   ![참고사진](https://)
+   ![참고사진](<https://github.com/nowon-kdt/aws-tips-and-tricks/blob/59eb90247e1bb81e7e7d2dec6d50decc1f24cb70/cicd/123%20(1).png>)
 3. secrets and variables 클릭합니다.
    ![참고사진](https://)
 4. actions을 클릭합니다.
