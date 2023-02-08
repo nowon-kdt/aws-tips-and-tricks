@@ -13,6 +13,9 @@ sleep 1
 sudo yum install java-11-amazon-corretto-headless.x86_64 -y
 sleep 1
 
+sudo yum install ruby -y -v
+sleep 1
+
 TOMCAT_TAR=$(find apache-tomcat*.tar.gz)
 if [ -f $TOMCAT_TAR ]; then
 tar -zxf $TOMCAT_TAR
