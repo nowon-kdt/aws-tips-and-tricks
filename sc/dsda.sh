@@ -17,12 +17,12 @@ sudo yum install ruby -y -v
 sleep 1
 
 TOMCAT_TAR=$(find apache-tomcat*.tar.gz)
-if [ -f $TOMCAT_TAR ]; then
+if [ !-f $TOMCAT_TAR ]; then
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.71/bin/apache-tomcat-9.0.71.tar.gz
+sleep 0.5
 tar -zxf $TOMCAT_TAR
 sleep 0.5
 else
-wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.71/bin/apache-tomcat-9.0.71.tar.gz
-sleep 0.5
 tar -zxf $TOMCAT_TAR
 sleep 0.5
 fi
