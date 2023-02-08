@@ -94,7 +94,7 @@
 
 - 깃허브 workflow 설정
 
-1. 변수명 = ${{ secrets.시크릿에 등록된 이름 }}
+1. 변수명: ${{ secrets.시크릿에 등록된 이름 }}
    ![참고사진](<https://github.com/nowon-kdt/aws-tips-and-tricks/blob/9873f4a937d58482f9e388f6ec8e1ceb5a91a808/cicd/123%20(25).png>)
    > (변수명은 $변수명으로 사용합니다.)
 2. $regionA는 시크릿값이 ap-northeast-2 입니다. 전역 환경변수로 등록하였습니다.
